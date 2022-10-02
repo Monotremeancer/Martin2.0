@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import beingMartin
 client = nextcord.Client()
 
-load_dotenv()
+load_dotenv() #
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 
